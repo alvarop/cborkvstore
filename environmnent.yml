@@ -1,0 +1,16 @@
+#
+# Conda environment for new chaac fw
+#
+channels:
+    - alvaroprieto
+    - conda-forge
+    - defaults
+
+dependencies:
+    - cmake-xpack=3.18.3_1
+    - make=4.2.1
+    - python=3.8.6
+    - pip
+variables:
+  CMAKE_GENERATOR: "Unix Makefiles"
+
